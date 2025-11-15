@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surio | Backend Developer & Database Specialist</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="me.jpeg">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">Surio.</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+               <h1 class="hero-title">Hi, I'm <span class="highlight-pink">Angela Surio</span></h1>
+                <p class="hero-subtitle">Backend Developer & Database Specialist</p>
+                <p class="hero-description">
+                    I create reliable backend systems and design efficient databases. I enjoy writing clean code, optimizing queries, and building APIs that keep systems running smoothly.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Projects</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="avatar-placeholder">
+                        <img src="me.jpeg" alt="Angela Surio" class = 'me'>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <p>
+                       I’m an IT student who has discovered a strong passion for coding. I especially enjoy working on the backend and database side of systems, 
+                       where I can see how different components function together to create efficient and robust software. Solving problems, optimizing data flow, 
+                       and building systems that work seamlessly excites me, and I’m always eager to learn and improve my skills in these areas.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<section id="projects" class="projects">
+    <div class="container">
+        <h2 class="section-title">Featured Projects</h2>
+        <p class="section-subtitle">Web, mobile, and backend systems I developed for academic and freelance projects</p>
+        
+        <div class="projects-grid">
+            
+            <div class="project-card" data-project="rice-bowl">
+                <div class="project-header">
+                    <h3 class="project-title">Rice in a Bowl – E-Commerce System</h3>
+                </div>
+                <p class="project-description">
+                    A Java-based e-commerce system with MySQL database for a small student meal business. 
+                    It features POS, product management, and secure login/register for admins and staff. 
+                    Admins can register users, manage products, handle customer orders, and unblock users after failed login attempts. 
+                    Integrated with JasperReports for generating receipts and sales reports.
+                </p>
+                <div class="project-tech">
+                    <span class="tech-tag">Java</span>
+                    <span class="tech-tag">MySQL</span>
+                    <span class="tech-tag">JasperReports</span>
+                </div>
+                <button class="btn-view-project">View Screenshots</button>
+            </div>
+
+            <div class="project-card" data-project="byte-brew">
+                <div class="project-header">
+                    <h3 class="project-title">Byte Brew – Coffee E-Commerce Website</h3>
+                </div>
+                <p class="project-description">
+                    A full-stack coffee shop e-commerce platform with a unique drink customization feature. 
+                    Includes customer pages (Home, Menu, About, Contact Us) and an admin dashboard for product management, 
+                    order tracking, and report generation. Admins can customize the site's logo, colors, and layout. 
+                    Also includes a POS module and analytics for fast- and slow-moving items.
+                </p>
+                <div class="project-tech">
+                    <span class="tech-tag">PHP</span>
+                    <span class="tech-tag">MySQL</span>
+                    <span class="tech-tag">HTML</span>
+                    <span class="tech-tag">CSS</span>
+                    <span class="tech-tag">JavaScript</span>
+                </div>
+                <button class="btn-view-project">View Screenshots</button>
+            </div>
+
+            <div class="project-card" data-project="coffee-backend">
+                <div class="project-header">
+                    <h3 class="project-title">Coffee E-Commerce Backend</h3>
+                </div>
+                <p class="project-description">
+                    Developed the backend for a coffee shop e-commerce website as a freelance project. 
+                    Implemented database structures, authentication, and APIs for order management, 
+                    report generation, and account unblocking. Focused on clean and secure backend logic 
+                    to support admin and customer functionality.
+                </p>
+                <div class="project-tech">
+                    <span class="tech-tag">PHP</span>
+                    <span class="tech-tag">MySQL</span>
+                </div>
+                <button class="btn-view-project">View Screenshots</button>
+            </div>
+
+            <div class="project-card" data-project="flappy-bird">
+                <div class="project-header">
+                    <h3 class="project-title">Flappy Bird Game</h3>
+                </div>
+                <p class="project-description">
+                    A fun recreation of the classic Flappy Bird game using simple game mechanics, 
+                    animations, and physics for smooth gameplay.
+                </p>
+                <div class="project-tech">
+                    <span class="tech-tag">C#</span>
+                    <span class="tech-tag">Game Development</span>
+                </div>
+                <button class="btn-view-project">View Screenshots</button>
+            </div>
+
+            <div class="project-card" data-project="endless-run">
+                <div class="project-header">
+                    <h3 class="project-title">Endless Run Game</h3>
+                </div>
+                <p class="project-description">
+                    A 2D endless runner game with increasing difficulty, background animation, and score tracking. 
+                    Focused on object collision, speed progression, and UI design.
+                </p>
+                <div class="project-tech">
+                    <span class="tech-tag">C#</span>
+                    <span class="tech-tag">Game Logic</span>
+                </div>
+                <button class="btn-view-project">View Screenshots</button>
+            </div>
+
+            <div class="project-card" data-project="social-media-app" data-has-link="true">
+                <div class="project-header">
+                    <h3 class="project-title">Social Media Mobile App</h3>
+                </div>
+                <p class="project-description">
+                    A mobile social app that allows users to register, log in, post updates, and message each other. 
+                    Includes profile management, password reset, and real-time communication features.
+                </p>
+                <div class="project-tech">
+                    <span class="tech-tag">Java</span>
+                    <span class="tech-tag">Firebase</span>
+                    <span class="tech-tag">Android Studio</span>
+                </div>
+                <div class="project-actions">
+                    <button class="btn-view-project">View Screenshots</button>
+                    <a href="https://drive.google.com/file/d/1PXFUgojRYD4-6x4s1BfCOLzUhHABKnCM/view?usp=sharing" class="btn-demo-link" target="_blank">View App</a>
+                </div>
+            </div>
+
+            <div class="project-card" data-project="hotel-app" data-has-link="true">
+                <div class="project-header">
+                    <h3 class="project-title">Hotel Staff Task Management App </h3>
+                </div>
+                <p class="project-description">
+                    A mobile app designed for hotel staff to receive and manage assigned tasks. 
+                    Staff can accept tasks, request day-offs (limited to 3 per date), update personal details, 
+                    and view completed work history. Includes login, password reset, and data synchronization.
+                </p>
+                <div class="project-tech">
+                    <span class="tech-tag">Java</span>
+                    <span class="tech-tag">Firebase</span>
+                    <span class="tech-tag">Android Studio</span>
+                </div>
+                <div class="project-actions">
+                    <button class="btn-view-project">View Screenshots</button>
+                    <a href="https://drive.google.com/file/d/1PXFUgojRYD4-6x4s1BfCOLzUhHABKnCM/view?usp=sharing" class="btn-demo-link" target="_blank">View App</a>
+                </div>
+            </div>
+
+            <div class="project-card" data-project="fashion-ecommerce" data-has-link="true">
+                <div class="project-header">
+                    <h3 class="project-title">Fashion E-Commerce Website</h3>
+                </div>
+                <p class="project-description">
+                    A web-based e-commerce platform for shirts, shoes, sandals, bags, and perfumes. 
+                    Features include cart, order history, and product browsing for customers. 
+                    The admin panel includes user management, product CRUD operations, and order tracking.
+                </p>
+                <div class="project-tech">
+                    <span class="tech-tag">Python</span>
+                    <span class="tech-tag">SQL</span>
+                    <span class="tech-tag">HTML</span>
+                    <span class="tech-tag">CSS</span>
+                    <span class="tech-tag">JavaScript</span>
+                </div>
+                <div class="project-actions">
+                    <button class="btn-view-project">View Screenshots</button>
+                    <a href="" class="btn-demo-link" target="_blank">View Live Site</a>
+                </div>
+            </div>
+
+            <div class="project-card" data-project="rhu-capstone" data-has-link="true">
+                <div class="project-header">
+                    <h3 class="project-title">Capstone: RHU Centralized Inventory System</h3>
+                </div>
+                <p class="project-description">
+                    A centralized inventory system for multiple Rural Health Units (RHUs) across San Rafael. 
+                    Each RHU can request medicine from others through the system. 
+                    I was responsible for the <strong>backend development and database management</strong>, including modules for patient medical history, 
+                    POS, report generation, and inter-RHU coordination. 
+                    The system ensures accurate inventory tracking and smooth data flow between RHUs.
+                </p>
+                <div class="project-tech">
+                    <span class="tech-tag">PHP</span>
+                    <span class="tech-tag">MySQL</span>
+                    <span class="tech-tag">Chart.js</span>
+                </div>
+                <div class="project-actions">
+                    <button class="btn-view-project">View Screenshots</button>
+                    <a href="https://rhu-nited.capstone-two.com/u-home.php" class="btn-demo-link" target="_blank">View Live System</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <p class="section-subtitle">Technologies I work with daily</p>
+            
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3 class="category-title">Languages</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">PHP</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">Java</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">HTML</span>
+                        <span class="skill-tag">CSS</span>
+                        <span class="skill-tag">SQL</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="category-title">Frameworks</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Django</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="category-title">Databases</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">MySQL</span>
+                        <span class="skill-tag">SQLite</span>
+                        <span class="skill-tag">Firebase</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="category-title">Tools & Technologies</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">phpMyAdmin</span>
+                        <span class="skill-tag">Git</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<section id="experience" class="experience">
+    <div class="container">
+        <h2 class="section-title">Experience & Education</h2>
+        
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-marker"></div>
+                <div class="timeline-content">
+                    <div class="timeline-header">
+                        <h3>Freelance Backend Developer</h3>
+                        <span class="timeline-date">2023 - Present</span>
+                    </div>
+                    <p class="timeline-company">Self-Employed</p>
+                    <p class="timeline-description">
+                        I take on freelance projects that focus on backend development, database management, and sometimes frontend development. 
+                        My work includes building and maintaining systems for small businesses and student organizations, 
+                        ensuring performance, scalability, and data accuracy.
+                    </p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-marker education"></div>
+                <div class="timeline-content">
+                    <div class="timeline-header">
+                        <h3>Bachelor of Science in Information Technology</h3>
+                        <span class="timeline-date">2021 - Present</span>
+                    </div>
+                    <p class="timeline-company">Major in Web and Mobile Development</p>
+                    <p class="timeline-company">Bulacan State University</p>
+                    <p class="timeline-description">
+                        Currently a 4th-year IT student specializing in backend development and databases. 
+                        My coursework and projects have strengthened my expertise in system design, SQL optimization, 
+                        and software development best practices. I continuously apply my learning through freelance 
+                        and academic projects.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title highlight-pink">Let's Work Together</h2>
+            <p class="section-subtitle">I'm always open to discussing new projects, opportunities, or partnerships.</p>
+            
+            <div class="contact-content">
+                <div class="contact-links">
+                    <a href="mailto:jelaysurio24@gmail@gmail.com" class="contact-link">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                            <polyline points="22,6 12,13 2,6"/>
+                        </svg>
+                        <span>jelaysurio24@gmail.com</span>
+                    </a>
+                    
+                    <a href="https://github.com/ryevelasquez03-max" target="_blank" class="contact-link">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+                        </svg>
+                        <span>github.com/angelaax</span>
+                    </a>
+                    
+                    <!-- <a href="https://linkedin.com/in/yourusername" target="_blank" class="contact-link">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+                            <rect x="2" y="9" width="4" height="12"/>
+                            <circle cx="4" cy="4" r="2"/>
+                        </svg>
+                        <span>linkedin.com/in/yourusername</span>
+                    </a> -->
+                </div>
+                
+                <a href="mailto:jelaysurio24@gmail.com" class="btn btn-contact">Get In Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Portfolio.</p>
+        </div>
+    </footer>
+
+    <div id="projectModal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close">&times;</span>
+            <h2 class="modal-title" id="modalTitle">Project Screenshots</h2>
+            <div class="modal-screenshots" id="modalScreenshots">
+            </div>
+            <div class="modal-navigation">
+                <button class="modal-nav-btn" id="prevBtn">&larr; Previous</button>
+                <span class="modal-counter" id="modalCounter">1 / 3</span>
+                <button class="modal-nav-btn" id="nextBtn">Next &rarr;</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
