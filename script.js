@@ -174,8 +174,8 @@ const projectScreenshots = {
         title: 'RHU Centralized Inventory System',
         images: [
             'screenshots/rhu-1.png',
-            'screenshots/rhu-2.png',
             'screenshots/rhu-3.png',
+            'screenshots/rhu-2.png',
             'screenshots/rhu-4.png'
         ]
     }
@@ -309,3 +309,4 @@ document.addEventListener('keydown', function(event) {
 console.log('%c👋 Hello there!', 'font-size: 20px; font-weight: bold; color: #EC4899;');
 console.log('%cThanks for checking out my portfolio. Feel free to reach out!', 'font-size: 14px; color: #6B7280;');
 console.log('%c📧 your.email@example.com', 'font-size: 14px; color: #10B981;');
+
