@@ -693,6 +693,48 @@ height: 100%;
     font-weight: 600;
     font-size: 1.1rem;
 }
+.project-contributors {
+    margin-top: 20px;
+    padding-top: 16px;
+    border-top: 1px solid #f1f5f9;
+}
+
+.project-contributors strong {
+    display: block;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    color: var(--accent-gray);
+    letter-spacing: 0.5px;
+    margin-bottom: 12px;
+}
+
+.project-contributors .contributor {
+    display: inline-flex;
+    align-items: center;
+    background: var(--bg-primary);
+    padding: 8px 14px;
+    border-radius: 20px;
+    margin: 4px 6px 4px 0;
+    font-size: 0.9rem;
+    color: var(--text-primary);
+    font-weight: 500;
+    border: 1px solid #e5e7eb;
+    transition: all 0.3s;
+}
+
+.project-contributors .contributor::before {
+    content: '👤';
+    margin-right: 6px;
+    font-size: 0.85rem;
+}
+
+.project-contributors .contributor:hover {
+    background: var(--accent-teal);
+    color: var(--white);
+    border-color: var(--accent-teal);
+    transform: translateY(-2px);
+    box-shadow: 0 2px 8px rgba(16, 185, 129, 0.2);
+}
 
 @keyframes fadeIn {
     from {
